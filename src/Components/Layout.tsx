@@ -4,13 +4,13 @@ import { Outlet } from "react-router-dom";
 
 function Layout() {
   return (
-    <div>
+    <>
       <Header />
-      <Sidebar />
-      <main>
+      <main className="flex">
+        <Sidebar />
         <Outlet />
       </main>
-    </div>
+    </>
   );
 }
 

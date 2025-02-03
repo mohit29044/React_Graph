@@ -2,8 +2,8 @@ interface TextType {
   text: string;
 }
 
-function Headertext({ text }: TextType) {
+function Commontext({ text }: TextType) {
   return <div className="font-sans font-medium">{text}</div>;
 }
 
-export default Headertext;
+export default Commontext;
