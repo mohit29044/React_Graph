@@ -5,7 +5,7 @@ import Today from "../../Components/Today";
 function Statistics() {
   return (
     <>
-      <div className="bg-gray-200 h-fit flex">
+      <div className="bg-gray-200 h-screen grid grid-cols-1 xl:grid-cols-3 w-full lg:w-[calc(100%-224px)]">
         <Today />
         <Revenue />
         <GraphStatistics />

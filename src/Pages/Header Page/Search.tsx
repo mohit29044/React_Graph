@@ -7,7 +7,7 @@ function Search() {
             type="text"
             name=""
             id=""
-            className="bg-[#F4F4F5] rounded-full p-1 border border-gray-400 placeholder:font-sans placeholder:p-4 "
+            className="hidden lg:block bg-[#F4F4F5] rounded-full p-1 border border-gray-400 placeholder:font-sans placeholder:p-4 "
             placeholder="Search"
           />
         </div>

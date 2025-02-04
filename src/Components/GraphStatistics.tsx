@@ -5,9 +5,9 @@ function GraphStatistics() {
   return (
     <>
       <div className="flex flex-col">
-        <div className="bg-white p-3 m-3 rounded-lg shadow-lg font-semibold">
+        <div className="bg-white p-3 m-3 rounded-lg shadow-lg font-semibold ">
           <h3>Statistics</h3>
-          <div className="flex text-center mt-3 gap-16">
+          <div className="flex text-center mt-3 gap-16 justify-center items-center">
             <div className="flex flex-col">
               <div>
                 <CommonGraph
@@ -41,7 +41,7 @@ function GraphStatistics() {
               </div>
             </div>
           </div>
-          <div className="mt-5">
+          <div className="mt-5 flex justify-center items-center">
             <Timeview />
           </div>
         </div>

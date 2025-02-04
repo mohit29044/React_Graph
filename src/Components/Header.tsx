@@ -14,7 +14,9 @@ function Header() {
             isActive ? "text-black" : "text-gray-500"
           }
         >
-          <Headertext text="For you" />
+          <div className="hidden lg:block">
+            <Headertext text="For you" />
+          </div>
         </NavLink>
         <NavLink
           to={"/following"}
@@ -22,7 +24,9 @@ function Header() {
             isActive ? "text-black" : "text-gray-500"
           }
         >
-          <Headertext text="Following" />
+          <div className="hidden lg:block">
+            <Headertext text="Following" />
+          </div>
         </NavLink>
         <NavLink
           to={"/popular"}
@@ -30,7 +34,9 @@ function Header() {
             isActive ? "text-black" : "text-gray-500"
           }
         >
-          <Headertext text="Popular" />
+          <div className="hidden lg:block">
+            <Headertext text="Popular" />
+          </div>
         </NavLink>
       </div>
       <Search />

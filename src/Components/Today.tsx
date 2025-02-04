@@ -1,4 +1,3 @@
-import React from "react";
 import CommonGraph from "./CommonGraph";
 
 function Today() {
@@ -6,7 +5,7 @@ function Today() {
     <>
       <div className="bg-white h-[330px] p-3 m-3 rounded-lg shadow-lg">
         <h3 className="font-semibold">User Today</h3>
-        <div className="flex justify-center items-center ">
+        <div className="flex justify-center items-center mt-5">
           <CommonGraph
             value={573}
             label="User"

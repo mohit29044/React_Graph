@@ -26,12 +26,12 @@ const data = [
 
 const Timeview: React.FC = () => {
   return (
-    <div className="p-3 bg-white shadow-md rounded-lg w-3200px] h-[190px] relative mt-2">
+    <div className="p-3 bg-white rounded-lg w-[300px] h-[220px] relative mt-2">
       <div className="flex justify-between items-center mb-1 px-2">
         <h3 className="text-sm font-semibold">Time View</h3>
       </div>
 
-      <ResponsiveContainer width="100%" height="80%">
+      <ResponsiveContainer width="100%" height="90%">
         <LineChart data={data}>
           <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#ccc" />
           <XAxis dataKey="month" tick={{ fontSize: 10 }} />
