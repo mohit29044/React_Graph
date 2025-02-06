@@ -21,6 +21,7 @@ const App: React.FC = () => {
           <Route path="/favorites" element={<div>favorites</div>}></Route>
           <Route path="/write" element={<div>write</div>}></Route>
           <Route path="/statistics" element={<Statistics />}></Route>
+          <Route path="/settings" element={<div>Settings</div>}></Route>
         </Route>
       </Routes>
     </Router>

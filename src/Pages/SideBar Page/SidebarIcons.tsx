@@ -1,46 +1,45 @@
-import { IconType } from "react-icons";
-import { GoHome } from "react-icons/go";
-import { CgProfile } from "react-icons/cg";
-import { IoIosNotifications } from "react-icons/io";
-import { MdOutlineFavoriteBorder } from "react-icons/md";
-import { TfiWrite } from "react-icons/tfi";
-import { FcStatistics } from "react-icons/fc";
+import statistics from "../../assets/diagram-icon.svg";
+import favourites from "../../assets/heart-icon.svg";
+import write from "../../assets/write.svg";
+import home from "../../assets/home-icon.svg";
+import profile from "../../assets/subscriber-icon.svg";
+import notification from "../../assets/noti-icon.svg";
 
 interface SidebarItem {
   label: string;
-  icons: IconType;
+  icons: string;
   path: string;
 }
 
 const sidebar: SidebarItem[] = [
   {
     label: "Home",
-    icons: GoHome,
+    icons: home,
     path: "/home",
   },
   {
     label: "Subscribers",
-    icons: CgProfile,
+    icons: profile,
     path: "/subscribers",
   },
   {
     label: "Notifications",
-    icons: IoIosNotifications,
+    icons: notification,
     path: "/notifications",
   },
   {
     label: "Favorites",
-    icons: MdOutlineFavoriteBorder,
+    icons: favourites,
     path: "/favorites",
   },
   {
     label: "Write",
-    icons: TfiWrite,
+    icons: write,
     path: "/write",
   },
   {
     label: "Statistics",
-    icons: FcStatistics,
+    icons: statistics,
     path: "/statistics",
   },
 ];

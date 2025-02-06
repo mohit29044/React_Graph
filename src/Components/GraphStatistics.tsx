@@ -4,7 +4,7 @@ import Timeview from "./Timeview";
 function GraphStatistics() {
   return (
     <>
-      <div className="flex flex-col">
+      <div className="flex flex-col md:row-span-2 md:col-span-2 xl:col-span-1">
         <div className="bg-white p-3 m-3 rounded-lg shadow-lg font-semibold ">
           <h3>Statistics</h3>
           <div className="flex text-center mt-3 gap-16 justify-center items-center">

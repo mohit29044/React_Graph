@@ -13,17 +13,27 @@ function Today() {
             size={200}
             thickness={20}
           />
-          <div className="text-mono flex flex-col gap-3 ml-8">
-            <div>
-              <div className="text-gray-600">Online</div>
+          <div className="text-mono flex flex-col gap-6 ml-3 xl:ml-6">
+            <div className="flex gap-2">
               <div>
-                <span className="font-semibold text-xl">179</span> Users
+                <div className="w-4 h-12 bg-[#EDEFF1] rounded-lg"></div>
+              </div>
+              <div>
+                <div className="text-gray-600">Online</div>
+                <div>
+                  <span className="font-semibold text-xl">179</span> Users
+                </div>
               </div>
             </div>
-            <div>
-              <div className="text-gray-600">Offline</div>
+            <div className="flex gap-2">
               <div>
-                <span className="font-semibold text-xl">200</span> Users
+                <div className="w-4 h-12 bg-[#FF5961] rounded-lg"></div>
+              </div>
+              <div>
+                <div className="text-gray-600">Offline</div>
+                <div>
+                  <span className="font-semibold text-xl">573</span> Users
+                </div>
               </div>
             </div>
           </div>

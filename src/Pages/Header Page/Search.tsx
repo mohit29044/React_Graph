@@ -11,7 +11,7 @@ function Search() {
             placeholder="Search"
           />
         </div>
-        <div className="items-center justify-center flex">
+        <div className="items-center justify-center flex lg:hidden">
           <svg
             width="24"
             height="24"
@@ -22,30 +22,30 @@ function Search() {
             <path
               d="M21 4.5H3"
               stroke="#5B6176"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
             <path
               d="M21 9.5H11.53"
               stroke="#5B6176"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
             <path
               d="M21 14.5H3"
               stroke="#5B6176"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
             <path
               d="M21 19.5H11.53"
               stroke="#5B6176"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
           </svg>
         </div>

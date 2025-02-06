@@ -5,7 +5,7 @@ import Search from "../Pages/Header Page/Search";
 
 function Header() {
   return (
-    <div className="flex h-20 items-center justify-between p-6 bg-[#F4F4F5] drop-shadow-lg sticky">
+    <div className="flex h-20 items-center justify-between p-6 bg-[#F4F4F5] drop-shadow-lg">
       <Profile description="ReactJs Dev" name="Mohit Prajapati" />
       <div className="flex gap-8">
         <NavLink

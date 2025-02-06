@@ -26,7 +26,7 @@ const data = [
 
 const Timeview: React.FC = () => {
   return (
-    <div className="p-3 bg-white rounded-lg w-[300px] h-[220px] relative mt-2">
+    <div className="p-3 bg-white rounded-lg h-60 w-full relative mt-2">
       <div className="flex justify-between items-center mb-1 px-2">
         <h3 className="text-sm font-semibold">Time View</h3>
       </div>

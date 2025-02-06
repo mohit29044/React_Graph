@@ -41,6 +41,7 @@ const CommonGraph: React.FC<CommonGraph> = ({
             cy={size / 2}
             innerRadius={size / 2 - thickness}
             outerRadius={size / 2}
+            cornerRadius={10}
             startAngle={90}
             endAngle={-270}
             dataKey="value"
